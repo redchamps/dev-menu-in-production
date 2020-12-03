@@ -1,0 +1,43 @@
+{
+    "name": "redchamps/module-dev-menu-in-production",
+    "description": "Magento 2 extension to allow Developer settings menu in production mode.",
+    "require": {
+        "magento/module-backend": "*"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL"
+    ],
+    "authors": [
+        {
+            "name": "RedChamps",
+            "email": "hello@redchamps.com",
+            "homepage": "https://redchamps.com/",
+            "role": "maintainer"
+        },
+        {
+            "name": "Ravinder",
+            "email": "rav@redchamps.com",
+            "homepage": "https://twitter.com/_iamRav",
+            "role": "maintainer"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/redchamps/dev-menu-in-production/",
+        "issues": "https://github.com/redchamps/dev-menu-in-production/issues/"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "RedChamps\\DevMenuInProduction\\": ""
+        }
+    }
+}
