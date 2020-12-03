@@ -6,7 +6,7 @@
     },
     "type": "magento2-module",
     "license": [
-        "OSL"
+        "OSL-3.0"
     ],
     "authors": [
         {
